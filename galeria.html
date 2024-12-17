@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/galeria.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="imagen.png" href="webfonts/favicon.png">
+    <script src="https://kit.fontawesome.com/fefebe7b5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <audio controls autoplay loop>
+            <source src="audio/Mi video.mp4" type="audio/mp4">
+        </audio>
+        <header>
+            <h1>fifty coffees</h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html"><i class="fa-regular fa-heart"></i>Inicio</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-pencil"></i>Blog</a></li>
+                    <li class="galeria"><a href="galeria.html"><i class="fa-solid fa-image"></i>Galeria</a></li>
+                    <li><a href="videos.html"><i class="fa-solid fa-video"></i>Video</a></li>
+                    <li><a href="contacto.html"><i class="fa-solid fa-phone-volume"></i>Contacto</a></li>
+                    <li><a href="pedidos.html"><i class="fa-solid fa-cart-shopping"></i>Pedidos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="galeria">
+                <figure>
+                    <img src="img/cafe.jpeg" alt="img" width="300px" height="200px">
+                    <figcaption>Imagen 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/people.jpeg" alt="img" width="300px" height="200px">
+                    <figcaption>Imagen 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/wifi.jpeg" alt="img" width="300px" height="200px">
+                    <figcaption>Imagen 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/inclusive.jpg" alt="img" width="300px" height="200px">
+                    <figcaption>Imagen 4</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/hombretomandocafe.jpg" alt="img" width="300px" height="200px">
+                    <figcaption>Imagen 5</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/istockphoto-1448801299-170667a.webp"a="img" width="300px" height="200px">
+                    <figcaption>Imagen 6</figcaption>
+                </figure>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/cafeteria-1_orig.jpg" class="mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><a href="pedidos.html">Pedir producto A</a></h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/productos-extra-para-vender-en-una-cafeteria-1.png" class="mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><a href="pedidos.html">Pedir producto B</a></h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/meriendita.jpg" class="mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><a href="pedidos.html">Pedir producto C</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon mx-auto" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon mx-auto" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <footer>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </footer>
+    </main>
+</body>
+</html>

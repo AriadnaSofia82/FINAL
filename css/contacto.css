@@ -1,0 +1,175 @@
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+}
+
+ul {
+    justify-content: center;
+}
+
+#menu i {
+    color: blue;
+    margin: 5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.blog {
+    border-bottom: 5px solid orangered;
+}
+
+#imagen_blog img {
+    width: 75%;
+    align-content: center;
+    margin-left: 13%;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.head {
+    float: right;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30%;
+    margin-left: 97%;
+    margin-right: 45%;
+}
+
+.head p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+#body p {
+    font-size: 22px;
+    color: white;
+}
+
+#body img {
+    float: left;
+    width: 20%;
+}
+
+#body {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    color: white;
+}
+
+section p {
+    font-size: 25px;
+    color: #7c5e1d;
+}
+
+footer i {
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 50%;
+    color: white;
+    margin: 1px;
+    font-size: 25px;
+}
+
+footer {
+    margin-left: 45%;
+    justify-content: center;
+}
+
+footer i:hover {
+    opacity: 75%;
+}
+
+#menu li:hover {
+    font-size: 40px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+main {
+    background-image: url(https://photoshop-kopona.com/uploads/posts/2018-02/1519827942_5.jpg);
+}
