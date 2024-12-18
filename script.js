@@ -1,7 +1,7 @@
 const products = [
     { "idproducto": "1", "nombre": "Producto A: Cafés", "precio": 10.00 },
-    { "idproducto": "2", "nombre": "Producto B: Ensalada de frutas", "precio": 20.00 },
-    { "idproducto": "3", "nombre": "Producto C: Sandwiches", "precio": 30.00 }
+    { "idproducto": "2", "nombre": "Producto B: Ensalada de frutas", "precio": 15.00 },
+    { "idproducto": "3", "nombre": "Producto C: Sandwiches", "precio": 8.00 }
 ];
 
 let selectedProducts = [];
