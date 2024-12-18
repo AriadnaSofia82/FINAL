@@ -13,6 +13,7 @@ function createProductCards() {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = ` 
+            <img src="img/cafeteria-1_orig.jpg" class="mx-auto d-block w-50" alt="...">
             <h5>${product.nombre}</h5> 
             <p>Precio: $${product.precio.toFixed(2)}</p> 
             <button class="select-product" data-idproducto="${product.idproducto}" data-nombre="${product.nombre}" data-precio="${product.precio}">Seleccionar</button> 
